@@ -14,6 +14,14 @@
 		3866665E216E77250005138F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3866665C216E77250005138F /* LaunchScreen.storyboard */; };
 		38666669216E77250005138F /* RockPaperSisorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38666668216E77250005138F /* RockPaperSisorsTests.swift */; };
 		38666674216E77250005138F /* RockPaperSisorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38666673216E77250005138F /* RockPaperSisorsUITests.swift */; };
+		38666688216E78310005138F /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 38666681216E78300005138F /* paper.png */; };
+		38666689216E78310005138F /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 38666682216E78300005138F /* rock.png */; };
+		3866668A216E78310005138F /* RockCrushesScissors.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 38666683216E78300005138F /* RockCrushesScissors.jpeg */; };
+		3866668B216E78310005138F /* itsATie.png in Resources */ = {isa = PBXBuildFile; fileRef = 38666684216E78300005138F /* itsATie.png */; };
+		3866668C216E78310005138F /* PaperCoversRock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38666685216E78300005138F /* PaperCoversRock.jpg */; };
+		3866668D216E78310005138F /* ScissorsCutPaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38666686216E78310005138F /* ScissorsCutPaper.jpg */; };
+		3866668E216E78310005138F /* scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 38666687216E78310005138F /* scissors.png */; };
+		38666690216E789C0005138F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3866668F216E789C0005138F /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		3866666F216E77250005138F /* RockPaperSisorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperSisorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38666673216E77250005138F /* RockPaperSisorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperSisorsUITests.swift; sourceTree = "<group>"; };
 		38666675216E77250005138F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38666681216E78300005138F /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		38666682216E78300005138F /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		38666683216E78300005138F /* RockCrushesScissors.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RockCrushesScissors.jpeg; sourceTree = "<group>"; };
+		38666684216E78300005138F /* itsATie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itsATie.png; sourceTree = "<group>"; };
+		38666685216E78300005138F /* PaperCoversRock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PaperCoversRock.jpg; sourceTree = "<group>"; };
+		38666686216E78310005138F /* ScissorsCutPaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScissorsCutPaper.jpg; sourceTree = "<group>"; };
+		38666687216E78310005138F /* scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissors.png; sourceTree = "<group>"; };
+		3866668F216E789C0005138F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,13 @@
 				38666667216E77250005138F /* RockPaperSisorsTests */,
 				38666672216E77250005138F /* RockPaperSisorsUITests */,
 				38666651216E77210005138F /* Products */,
+				38666684216E78300005138F /* itsATie.png */,
+				38666681216E78300005138F /* paper.png */,
+				38666685216E78300005138F /* PaperCoversRock.jpg */,
+				38666682216E78300005138F /* rock.png */,
+				38666683216E78300005138F /* RockCrushesScissors.jpeg */,
+				38666687216E78310005138F /* scissors.png */,
+				38666686216E78310005138F /* ScissorsCutPaper.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +126,7 @@
 				3866665A216E77250005138F /* Assets.xcassets */,
 				3866665C216E77250005138F /* LaunchScreen.storyboard */,
 				3866665F216E77250005138F /* Info.plist */,
+				3866668F216E789C0005138F /* ResultViewController.swift */,
 			);
 			path = RockPaperSisors;
 			sourceTree = "<group>";
@@ -229,8 +253,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3866668B216E78310005138F /* itsATie.png in Resources */,
+				38666688216E78310005138F /* paper.png in Resources */,
+				3866668A216E78310005138F /* RockCrushesScissors.jpeg in Resources */,
+				3866668C216E78310005138F /* PaperCoversRock.jpg in Resources */,
+				38666689216E78310005138F /* rock.png in Resources */,
 				3866665E216E77250005138F /* LaunchScreen.storyboard in Resources */,
 				3866665B216E77250005138F /* Assets.xcassets in Resources */,
+				3866668D216E78310005138F /* ScissorsCutPaper.jpg in Resources */,
+				3866668E216E78310005138F /* scissors.png in Resources */,
 				38666659216E77210005138F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +289,7 @@
 			files = (
 				38666656216E77210005138F /* ViewController.swift in Sources */,
 				38666654216E77210005138F /* AppDelegate.swift in Sources */,
+				38666690216E789C0005138F /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
